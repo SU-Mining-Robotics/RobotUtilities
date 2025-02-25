@@ -1,6 +1,7 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import Bool
+from sensor_msgs.msg import BatteryState
 from rclpy.qos import QoSProfile, ReliabilityPolicy, HistoryPolicy
 
 class QoSForwarderNode(Node):
@@ -10,49 +11,49 @@ class QoSForwarderNode(Node):
 
         # QoS profiles
         qos_profile_sub = QoSProfile(
-            reliability=ReliabilityPolicy.RELIABLE,
+            reliability=ReliabilityPolicy.BEST_EFFORT,
             history=HistoryPolicy.KEEP_LAST,
             depth=10
         )
         qos_profile_pub = QoSProfile(
-            reliability=ReliabilityPolicy.BEST_EFFORT,
+            reliability=ReliabilityPolicy.RELIABLE,
             history=HistoryPolicy.KEEP_LAST,
             depth=10
         )
 
         # Subscribers
-        self.subscription1 = self.create_subscription(
-            String, # Change to appropriate message type
-            'topic1',
-            self.listener_callback1,
+        self.subscriptionBatteryState = self.create_subscription(
+            BatteryState,
+            '/a200_1057/platform/bms/state',
+            self.listener_callback_battery_state,
             qos_profile_sub
         )
-        self.subscription2 = self.create_subscription(
-            String, # Change to appropriate message type
-            'topic2',
-            self.listener_callback2,
+        self.subscriptionEStopState = self.create_subscription(
+            Bool,
+            '/a200_1057/platform/emergency_stop',
+            self.listener_callback_e_stop_state,
             qos_profile_sub
         )
 
         # Publishers
-        self.publisher1 = self.create_publisher(
-            String,
-            'new_topic1',
+        self.publisherBatteryState = self.create_publisher(
+            BatteryState,
+            '/a200_1057/platform/bms/state_forwarded',
             qos_profile_pub
         )
-        self.publisher2 = self.create_publisher(
-            String,
-            'new_topic2',
+        self.publisherEStopState = self.create_publisher(
+            Bool,
+            '/a200_1057/platform/emergency_stop_forwarded',
             qos_profile_pub
         )
 
-    def listener_callback1(self, msg):
-        self.get_logger().info(f'Listener1 heard: "{msg.data}"')
-        self.publisher1.publish(msg)
+    def listener_callback_battery_state(self, msg):
+        self.get_logger().info(f'Battery State Listener heard: "{msg.data}"')
+        self.publisherBatteryState.publish(msg)
 
-    def listener_callback2(self, msg):
-        self.get_logger().info(f'Listener2 heard: "{msg.data}"')
-        self.publisher2.publish(msg)
+    def listener_callback_e_stop_state(self, msg):
+        self.get_logger().info(f'E Stop State Listener heard: "{msg.data}"')
+        self.publisherEStopState.publish(msg)
 
 def main(args=None):
     rclpy.init(args=args)
