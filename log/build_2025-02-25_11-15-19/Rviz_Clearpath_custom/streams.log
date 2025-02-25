@@ -1,0 +1,34 @@
+[1.521s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rviz_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/install.log --single-version-externally-managed install_data
+[1.689s] running egg_info
+[1.689s] creating ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info
+[1.690s] writing ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/PKG-INFO
+[1.690s] writing dependency_links to ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/dependency_links.txt
+[1.690s] writing entry points to ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/entry_points.txt
+[1.690s] writing requirements to ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/requires.txt
+[1.691s] writing top-level names to ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/top_level.txt
+[1.691s] writing manifest file '../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/SOURCES.txt'
+[1.692s] reading manifest file '../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/SOURCES.txt'
+[1.693s] adding license file 'LICENSE'
+[1.693s] writing manifest file '../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info/SOURCES.txt'
+[1.694s] running build
+[1.694s] running build_py
+[1.694s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build
+[1.694s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build/lib
+[1.694s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build/lib/Rviz_Clearpath_custom
+[1.694s] copying Rviz_Clearpath_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build/lib/Rviz_Clearpath_custom
+[1.695s] running install
+[1.695s] running install_lib
+[1.695s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages/Rviz_Clearpath_custom
+[1.695s] copying /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build/lib/Rviz_Clearpath_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages/Rviz_Clearpath_custom
+[1.696s] byte-compiling /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages/Rviz_Clearpath_custom/__init__.py to __init__.cpython-310.pyc
+[1.696s] running install_data
+[1.696s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/ament_index
+[1.697s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/ament_index/resource_index
+[1.697s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/ament_index/resource_index/packages
+[1.697s] copying resource/Rviz_Clearpath_custom -> /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/ament_index/resource_index/packages
+[1.697s] copying package.xml -> /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom
+[1.697s] running install_egg_info
+[1.698s] Copying ../../build/Rviz_Clearpath_custom/Rviz_Clearpath_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages/Rviz_Clearpath_custom-0.0.0-py3.10.egg-info
+[1.700s] running install_scripts
+[1.719s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/install.log'
+[1.741s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rviz_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/install.log --single-version-externally-managed install_data

@@ -1,0 +1,34 @@
+[2.233s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RTABMap_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/install.log --single-version-externally-managed install_data
+[2.628s] running egg_info
+[2.630s] creating ../../build/RTABMap_custom/RTABMap_custom.egg-info
+[2.631s] writing ../../build/RTABMap_custom/RTABMap_custom.egg-info/PKG-INFO
+[2.631s] writing dependency_links to ../../build/RTABMap_custom/RTABMap_custom.egg-info/dependency_links.txt
+[2.631s] writing entry points to ../../build/RTABMap_custom/RTABMap_custom.egg-info/entry_points.txt
+[2.632s] writing requirements to ../../build/RTABMap_custom/RTABMap_custom.egg-info/requires.txt
+[2.633s] writing top-level names to ../../build/RTABMap_custom/RTABMap_custom.egg-info/top_level.txt
+[2.633s] writing manifest file '../../build/RTABMap_custom/RTABMap_custom.egg-info/SOURCES.txt'
+[2.635s] reading manifest file '../../build/RTABMap_custom/RTABMap_custom.egg-info/SOURCES.txt'
+[2.637s] adding license file 'LICENSE'
+[2.637s] writing manifest file '../../build/RTABMap_custom/RTABMap_custom.egg-info/SOURCES.txt'
+[2.638s] running build
+[2.639s] running build_py
+[2.639s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build
+[2.639s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build/lib
+[2.639s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build/lib/RTABMap_custom
+[2.639s] copying RTABMap_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build/lib/RTABMap_custom
+[2.639s] running install
+[2.639s] running install_lib
+[2.643s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages/RTABMap_custom
+[2.645s] copying /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build/lib/RTABMap_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages/RTABMap_custom
+[2.645s] byte-compiling /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages/RTABMap_custom/__init__.py to __init__.cpython-310.pyc
+[2.645s] running install_data
+[2.645s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/ament_index
+[2.645s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/ament_index/resource_index
+[2.645s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/ament_index/resource_index/packages
+[2.645s] copying resource/RTABMap_custom -> /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/ament_index/resource_index/packages
+[2.645s] copying package.xml -> /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom
+[2.645s] running install_egg_info
+[2.645s] Copying ../../build/RTABMap_custom/RTABMap_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages/RTABMap_custom-0.0.0-py3.10.egg-info
+[2.651s] running install_scripts
+[2.677s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/install.log'
+[2.859s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RTABMap_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/install.log --single-version-externally-managed install_data

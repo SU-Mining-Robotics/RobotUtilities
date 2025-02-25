@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/SICK_scan_custom/SICK_scan_custom.egg-info
+writing ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/PKG-INFO
+writing dependency_links to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/dependency_links.txt
+writing entry points to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/entry_points.txt
+writing requirements to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/requires.txt
+writing top-level names to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/top_level.txt
+writing manifest file '../../build/SICK_scan_custom/SICK_scan_custom.egg-info/SOURCES.txt'
+reading manifest file '../../build/SICK_scan_custom/SICK_scan_custom.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/SICK_scan_custom/SICK_scan_custom.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build
+creating /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build/lib
+creating /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build/lib/SICK_scan_custom
+copying SICK_scan_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build/lib/SICK_scan_custom
+running install
+running install_lib
+creating /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages/SICK_scan_custom
+copying /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build/lib/SICK_scan_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages/SICK_scan_custom
+byte-compiling /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages/SICK_scan_custom/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/ament_index
+creating /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/ament_index/resource_index
+creating /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/ament_index/resource_index/packages
+copying resource/SICK_scan_custom -> /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/ament_index/resource_index/packages
+copying package.xml -> /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom
+running install_egg_info
+Copying ../../build/SICK_scan_custom/SICK_scan_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages/SICK_scan_custom-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/install.log'

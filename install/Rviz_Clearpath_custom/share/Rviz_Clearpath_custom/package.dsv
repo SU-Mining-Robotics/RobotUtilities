@@ -1,0 +1,6 @@
+source;share/Rviz_Clearpath_custom/hook/pythonpath.ps1
+source;share/Rviz_Clearpath_custom/hook/pythonpath.dsv
+source;share/Rviz_Clearpath_custom/hook/pythonpath.sh
+source;share/Rviz_Clearpath_custom/hook/ament_prefix_path.ps1
+source;share/Rviz_Clearpath_custom/hook/ament_prefix_path.dsv
+source;share/Rviz_Clearpath_custom/hook/ament_prefix_path.sh

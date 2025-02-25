@@ -1,0 +1,6 @@
+source;share/RealSense_Camera_custom/hook/pythonpath.ps1
+source;share/RealSense_Camera_custom/hook/pythonpath.dsv
+source;share/RealSense_Camera_custom/hook/pythonpath.sh
+source;share/RealSense_Camera_custom/hook/ament_prefix_path.ps1
+source;share/RealSense_Camera_custom/hook/ament_prefix_path.dsv
+source;share/RealSense_Camera_custom/hook/ament_prefix_path.sh

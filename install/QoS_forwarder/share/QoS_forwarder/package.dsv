@@ -1,0 +1,6 @@
+source;share/QoS_forwarder/hook/pythonpath.ps1
+source;share/QoS_forwarder/hook/pythonpath.dsv
+source;share/QoS_forwarder/hook/pythonpath.sh
+source;share/QoS_forwarder/hook/ament_prefix_path.ps1
+source;share/QoS_forwarder/hook/ament_prefix_path.dsv
+source;share/QoS_forwarder/hook/ament_prefix_path.sh

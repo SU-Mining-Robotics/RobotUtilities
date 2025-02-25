@@ -1,0 +1,34 @@
+[1.986s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/QoS_forwarder build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/install.log --single-version-externally-managed install_data
+[2.276s] running egg_info
+[2.277s] creating ../../build/QoS_forwarder/QoS_forwarder.egg-info
+[2.278s] writing ../../build/QoS_forwarder/QoS_forwarder.egg-info/PKG-INFO
+[2.279s] writing dependency_links to ../../build/QoS_forwarder/QoS_forwarder.egg-info/dependency_links.txt
+[2.279s] writing entry points to ../../build/QoS_forwarder/QoS_forwarder.egg-info/entry_points.txt
+[2.280s] writing requirements to ../../build/QoS_forwarder/QoS_forwarder.egg-info/requires.txt
+[2.281s] writing top-level names to ../../build/QoS_forwarder/QoS_forwarder.egg-info/top_level.txt
+[2.285s] writing manifest file '../../build/QoS_forwarder/QoS_forwarder.egg-info/SOURCES.txt'
+[2.285s] reading manifest file '../../build/QoS_forwarder/QoS_forwarder.egg-info/SOURCES.txt'
+[2.285s] adding license file 'LICENSE'
+[2.288s] writing manifest file '../../build/QoS_forwarder/QoS_forwarder.egg-info/SOURCES.txt'
+[2.288s] running build
+[2.288s] running build_py
+[2.288s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build
+[2.288s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build/lib
+[2.291s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build/lib/QoS_forwarder
+[2.291s] copying QoS_forwarder/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build/lib/QoS_forwarder
+[2.293s] running install
+[2.296s] running install_lib
+[2.301s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages/QoS_forwarder
+[2.303s] copying /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build/lib/QoS_forwarder/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages/QoS_forwarder
+[2.306s] byte-compiling /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages/QoS_forwarder/__init__.py to __init__.cpython-310.pyc
+[2.307s] running install_data
+[2.307s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/ament_index
+[2.307s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/ament_index/resource_index
+[2.308s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/ament_index/resource_index/packages
+[2.308s] copying resource/QoS_forwarder -> /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/ament_index/resource_index/packages
+[2.308s] copying package.xml -> /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder
+[2.308s] running install_egg_info
+[2.316s] Copying ../../build/QoS_forwarder/QoS_forwarder.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages/QoS_forwarder-0.0.0-py3.10.egg-info
+[2.324s] running install_scripts
+[2.361s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/install.log'
+[2.485s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/QoS_forwarder build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/install.log --single-version-externally-managed install_data
