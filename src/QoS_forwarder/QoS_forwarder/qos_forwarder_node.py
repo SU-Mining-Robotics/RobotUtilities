@@ -48,11 +48,11 @@ class QoSForwarderNode(Node):
         )
 
     def listener_callback_battery_state(self, msg):
-        self.get_logger().info(f'Battery State Listener heard: "{msg.data}"')
+        # self.get_logger().info(f'Battery State Listener heard: "{msg.data}"')
         self.publisherBatteryState.publish(msg)
 
     def listener_callback_e_stop_state(self, msg):
-        self.get_logger().info(f'E Stop State Listener heard: "{msg.data}"')
+        # self.get_logger().info(f'E Stop State Listener heard: "{msg.data}"')
         self.publisherEStopState.publish(msg)
 
 def main(args=None):
