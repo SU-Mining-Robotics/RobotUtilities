@@ -1,3 +1,4 @@
+
 # Software License Agreement (BSD)
 #
 # @author    Roni Kreinin <rkreinin@clearpathrobotics.com>
@@ -33,18 +34,17 @@ from clearpath_config.clearpath_config import ClearpathConfig
 from launch import LaunchDescription
 from launch.actions import (
     DeclareLaunchArgument,
-    GroupAction,
-    IncludeLaunchDescription,
     OpaqueFunction
 )
-from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 from launch.substitutions import (
     LaunchConfiguration,
     PathJoinSubstitution
 )
 
-from launch_ros.actions import PushRosNamespace, SetRemap
+from launch_ros.actions import Node
+
+from nav2_common.launch import RewrittenYaml
 
 
 ARGUMENTS = [
@@ -60,7 +60,6 @@ ARGUMENTS = [
 def launch_setup(context, *args, **kwargs):
     # Packages
     pkg_clearpath_nav2_demos = get_package_share_directory('clearpath_nav2_demos')
-    pkg_nav2_bringup = get_package_share_directory('nav2_bringup')
 
     # Launch Configurations
     use_sim_time = LaunchConfiguration('use_sim_time')
@@ -78,37 +77,41 @@ def launch_setup(context, *args, **kwargs):
     #     pkg_clearpath_nav2_demos,
     #     'config',
     #     platform_model,
-    #     'nav2.yaml'])
+    #     'slam.yaml'])
 
     file_parameters = PathJoinSubstitution([
-    get_package_share_directory('Nav2_Clearpath_custom'),
-    'config',
-    platform_model,
-    'nav2_custom.yaml'
-])
+        get_package_share_directory('SLAM_clearpath_custom'),
+        'config',
+        platform_model,
+        'slam_custom.yaml'])
 
-    launch_nav2 = PathJoinSubstitution(
-      [pkg_nav2_bringup, 'launch', 'navigation_launch.py'])
+    rewritten_parameters = RewrittenYaml(
+        source_file=file_parameters,
+        root_key=namespace,
+        param_rewrites={},
+        convert_types=True
+    )
 
-    nav2 = GroupAction([
-        PushRosNamespace(namespace),
-        SetRemap('/' + namespace + '/global_costmap/sensors/lidar2d_0/scan',
-                 '/' + namespace + '/sensors/lidar2d_0/scan'),
-        SetRemap('/' + namespace + '/local_costmap/sensors/lidar2d_0/scan',
-                 '/' + namespace + '/sensors/lidar2d_0/scan'),
+    slam = Node(
+        package='slam_toolbox',
+        executable='async_slam_toolbox_node',
+        name='slam_toolbox',
+        namespace='a200_1057',
+        output='screen',
+        parameters=[
+          rewritten_parameters,
+          {'use_sim_time': use_sim_time}
+        ],
+        remappings=[
+          ('/tf', 'tf'),
+          ('/tf_static', 'tf_static'),
+          ('/scan', 'sensors/lidar2d_0/scan'),
+          ('/map', 'map'),
+          ('/map_metadata', 'map_metadata'),
+        ]
+    )
 
-        IncludeLaunchDescription(
-            PythonLaunchDescriptionSource(launch_nav2),
-            launch_arguments=[
-                ('use_sim_time', use_sim_time),
-                ('params_file', file_parameters),
-                ('use_composition', 'False'),
-                ('namespace', namespace)
-              ]
-        ),
-    ])
-
-    return [nav2]
+    return [slam]
 
 
 def generate_launch_description():
