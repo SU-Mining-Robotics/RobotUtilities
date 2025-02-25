@@ -1,0 +1,21 @@
+[2.222s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Nav2_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/install.log --single-version-externally-managed install_data
+[2.631s] running egg_info
+[2.631s] writing ../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/PKG-INFO
+[2.632s] writing dependency_links to ../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/dependency_links.txt
+[2.632s] writing entry points to ../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/entry_points.txt
+[2.633s] writing requirements to ../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/requires.txt
+[2.633s] writing top-level names to ../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/top_level.txt
+[2.633s] reading manifest file '../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/SOURCES.txt'
+[2.633s] adding license file 'LICENSE'
+[2.633s] writing manifest file '../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info/SOURCES.txt'
+[2.633s] running build
+[2.634s] running build_py
+[2.634s] running install
+[2.634s] running install_lib
+[2.634s] running install_data
+[2.634s] running install_egg_info
+[2.634s] removing '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages/Nav2_Clearpath_custom-0.0.0-py3.10.egg-info' (and everything under it)
+[2.635s] Copying ../../build/Nav2_Clearpath_custom/Nav2_Clearpath_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages/Nav2_Clearpath_custom-0.0.0-py3.10.egg-info
+[2.636s] running install_scripts
+[2.665s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/install.log'
+[2.738s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Nav2_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/install.log --single-version-externally-managed install_data

@@ -1,0 +1,426 @@
+[0.601s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.602s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71e09f854340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71e09f823dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71e09f823dc0>>, mixin_verb=('build',))
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.473s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.474s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/adam/robot_utilities_ws/RobotUtilities'
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.475s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.550s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.551s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.552s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.553s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.554s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.555s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extension 'ignore'
+[1.556s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extension 'ignore_ament_install'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extensions ['colcon_pkg']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extension 'colcon_pkg'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extensions ['colcon_meta']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extension 'colcon_meta'
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extensions ['ros']
+[1.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/Nav2_Clearpath_custom) by extension 'ros'
+[1.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Nav2_Clearpath_custom' with type 'ros.ament_python' and name 'Nav2_Clearpath_custom'
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extensions ['ignore', 'ignore_ament_install']
+[1.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extension 'ignore'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extension 'ignore_ament_install'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extensions ['colcon_pkg']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extension 'colcon_pkg'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extensions ['colcon_meta']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extension 'colcon_meta'
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extensions ['ros']
+[1.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/QoS_forwarder) by extension 'ros'
+[1.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/QoS_forwarder' with type 'ros.ament_python' and name 'QoS_forwarder'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extension 'ignore'
+[1.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extension 'ignore_ament_install'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extensions ['colcon_pkg']
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extension 'colcon_pkg'
+[1.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extensions ['colcon_meta']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extension 'colcon_meta'
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extensions ['ros']
+[1.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/RTABMap_custom) by extension 'ros'
+[1.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RTABMap_custom' with type 'ros.ament_python' and name 'RTABMap_custom'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extension 'ignore'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extension 'ignore_ament_install'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extensions ['colcon_pkg']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extension 'colcon_pkg'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extensions ['colcon_meta']
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extension 'colcon_meta'
+[1.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extensions ['ros']
+[1.581s] Level 1:colcon.colcon_core.package_identification:_identify(src/RealSense_Camera_custom) by extension 'ros'
+[1.583s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RealSense_Camera_custom' with type 'ros.ament_python' and name 'RealSense_Camera_custom'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extension 'ignore'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extension 'ignore_ament_install'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extensions ['colcon_pkg']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extension 'colcon_pkg'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extensions ['colcon_meta']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extension 'colcon_meta'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extensions ['ros']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/Rviz_Clearpath_custom) by extension 'ros'
+[1.585s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Rviz_Clearpath_custom' with type 'ros.ament_python' and name 'Rviz_Clearpath_custom'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extension 'ignore'
+[1.585s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extension 'ignore_ament_install'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extensions ['colcon_pkg']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extension 'colcon_pkg'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extensions ['colcon_meta']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extension 'colcon_meta'
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extensions ['ros']
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/SICK_scan_custom) by extension 'ros'
+[1.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/SICK_scan_custom' with type 'ros.ament_python' and name 'SICK_scan_custom'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extension 'ignore'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extension 'ignore_ament_install'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extensions ['colcon_pkg']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extension 'colcon_pkg'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extensions ['colcon_meta']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extension 'colcon_meta'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extensions ['ros']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/SLAM_clearpath_custom) by extension 'ros'
+[1.588s] DEBUG:colcon.colcon_core.package_identification:Package 'src/SLAM_clearpath_custom' with type 'ros.ament_python' and name 'SLAM_clearpath_custom'
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.712s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.727s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.876s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'cmake_target' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'cmake_clean_first' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'cmake_force_configure' from command line to 'False'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'ament_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.877s] Level 5:colcon.colcon_core.verb:set package 'Nav2_Clearpath_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.877s] DEBUG:colcon.colcon_core.verb:Building package 'Nav2_Clearpath_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom', 'symlink_install': False, 'test_result_base': None}
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'cmake_args' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'cmake_target' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'cmake_clean_cache' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'cmake_clean_first' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'cmake_force_configure' from command line to 'False'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'ament_cmake_args' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'catkin_cmake_args' from command line to 'None'
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'QoS_forwarder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.878s] DEBUG:colcon.colcon_core.verb:Building package 'QoS_forwarder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder', 'symlink_install': False, 'test_result_base': None}
+[1.878s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'cmake_args' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'cmake_target' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'cmake_clean_first' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'cmake_force_configure' from command line to 'False'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'ament_cmake_args' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RTABMap_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.879s] DEBUG:colcon.colcon_core.verb:Building package 'RTABMap_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom', 'symlink_install': False, 'test_result_base': None}
+[1.879s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'cmake_target' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'cmake_clean_first' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'cmake_force_configure' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'ament_cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'RealSense_Camera_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.880s] DEBUG:colcon.colcon_core.verb:Building package 'RealSense_Camera_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom', 'symlink_install': False, 'test_result_base': None}
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'cmake_args' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'cmake_target' from command line to 'None'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'cmake_clean_first' from command line to 'False'
+[1.880s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'cmake_force_configure' from command line to 'False'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'ament_cmake_args' from command line to 'None'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'Rviz_Clearpath_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.881s] DEBUG:colcon.colcon_core.verb:Building package 'Rviz_Clearpath_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom', 'symlink_install': False, 'test_result_base': None}
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'cmake_args' from command line to 'None'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'cmake_target' from command line to 'None'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'cmake_clean_first' from command line to 'False'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'cmake_force_configure' from command line to 'False'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'ament_cmake_args' from command line to 'None'
+[1.881s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SICK_scan_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.882s] DEBUG:colcon.colcon_core.verb:Building package 'SICK_scan_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom', 'symlink_install': False, 'test_result_base': None}
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'cmake_target' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'cmake_clean_first' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'cmake_force_configure' from command line to 'False'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'ament_cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[1.882s] Level 5:colcon.colcon_core.verb:set package 'SLAM_clearpath_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.882s] DEBUG:colcon.colcon_core.verb:Building package 'SLAM_clearpath_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom', 'merge_install': False, 'path': '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom', 'symlink_install': False, 'test_result_base': None}
+[1.883s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.888s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.888s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom' with build type 'ament_python'
+[1.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('Nav2_Clearpath_custom', 'ament_prefix_path')
+[1.906s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/hook/ament_prefix_path.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/hook/ament_prefix_path.dsv'
+[1.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/hook/ament_prefix_path.sh'
+[1.928s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.937s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder' with build type 'ament_python'
+[1.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('QoS_forwarder', 'ament_prefix_path')
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/hook/ament_prefix_path.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/hook/ament_prefix_path.dsv'
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/hook/ament_prefix_path.sh'
+[1.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.960s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom' with build type 'ament_python'
+[1.960s] Level 1:colcon.colcon_core.shell:create_environment_hook('RTABMap_custom', 'ament_prefix_path')
+[1.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/hook/ament_prefix_path.ps1'
+[1.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/hook/ament_prefix_path.dsv'
+[1.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/hook/ament_prefix_path.sh'
+[1.971s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.971s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom' with build type 'ament_python'
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('RealSense_Camera_custom', 'ament_prefix_path')
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/hook/ament_prefix_path.ps1'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/hook/ament_prefix_path.dsv'
+[1.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/hook/ament_prefix_path.sh'
+[1.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.352s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom'
+[2.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.659s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder'
+[2.659s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.660s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.094s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom'
+[3.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.406s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom'
+[3.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Nav2_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/install.log --single-version-externally-managed install_data
+[4.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RTABMap_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/install.log --single-version-externally-managed install_data
+[4.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RealSense_Camera_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/install.log --single-version-externally-managed install_data
+[4.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/QoS_forwarder build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/install.log --single-version-externally-managed install_data
+[4.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Nav2_Clearpath_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Nav2_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Nav2_Clearpath_custom/install.log --single-version-externally-managed install_data
+[4.657s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom' for CMake module files
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom' for CMake config files
+[4.659s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib'
+[4.659s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/bin'
+[4.660s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/pkgconfig/Nav2_Clearpath_custom.pc'
+[4.660s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/lib/python3.10/site-packages'
+[4.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('Nav2_Clearpath_custom', 'pythonpath')
+[4.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/hook/pythonpath.ps1'
+[4.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/hook/pythonpath.dsv'
+[4.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/hook/pythonpath.sh'
+[4.665s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/bin'
+[4.666s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Nav2_Clearpath_custom)
+[4.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/package.ps1'
+[4.670s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/package.dsv'
+[4.672s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/package.sh'
+[4.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/package.bash'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/Nav2_Clearpath_custom/package.zsh'
+[4.687s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/Nav2_Clearpath_custom/share/colcon-core/packages/Nav2_Clearpath_custom)
+[4.688s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom' with build type 'ament_python'
+[4.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('Rviz_Clearpath_custom', 'ament_prefix_path')
+[4.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/hook/ament_prefix_path.ps1'
+[4.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/hook/ament_prefix_path.dsv'
+[4.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/hook/ament_prefix_path.sh'
+[4.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder' for CMake module files
+[4.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/QoS_forwarder' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/QoS_forwarder build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/QoS_forwarder/install.log --single-version-externally-managed install_data
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder' for CMake config files
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/bin'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/pkgconfig/QoS_forwarder.pc'
+[4.705s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/lib/python3.10/site-packages'
+[4.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('QoS_forwarder', 'pythonpath')
+[4.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/hook/pythonpath.ps1'
+[4.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/hook/pythonpath.dsv'
+[4.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/hook/pythonpath.sh'
+[4.710s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/bin'
+[4.710s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(QoS_forwarder)
+[4.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/package.ps1'
+[4.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/package.dsv'
+[4.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/package.sh'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/package.bash'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/QoS_forwarder/package.zsh'
+[4.721s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/QoS_forwarder/share/colcon-core/packages/QoS_forwarder)
+[4.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom' with build type 'ament_python'
+[4.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('SICK_scan_custom', 'ament_prefix_path')
+[4.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/hook/ament_prefix_path.ps1'
+[4.738s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/hook/ament_prefix_path.dsv'
+[4.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/hook/ament_prefix_path.sh'
+[4.744s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.744s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.752s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom' for CMake module files
+[4.753s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RTABMap_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RTABMap_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RTABMap_custom/install.log --single-version-externally-managed install_data
+[4.755s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom' for CMake config files
+[4.762s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib'
+[4.762s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/bin'
+[4.763s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/pkgconfig/RTABMap_custom.pc'
+[4.763s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/lib/python3.10/site-packages'
+[4.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('RTABMap_custom', 'pythonpath')
+[4.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/hook/pythonpath.ps1'
+[4.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/hook/pythonpath.dsv'
+[4.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/hook/pythonpath.sh'
+[4.773s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/bin'
+[4.774s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(RTABMap_custom)
+[4.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/package.ps1'
+[4.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/package.dsv'
+[4.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/package.sh'
+[4.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/package.bash'
+[4.797s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/RTABMap_custom/package.zsh'
+[4.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/RTABMap_custom/share/colcon-core/packages/RTABMap_custom)
+[4.801s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom' for CMake module files
+[4.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RealSense_Camera_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/install.log --single-version-externally-managed install_data
+[4.806s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom' for CMake config files
+[4.807s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib'
+[4.807s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/bin'
+[4.807s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/pkgconfig/RealSense_Camera_custom.pc'
+[4.808s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages'
+[4.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('RealSense_Camera_custom', 'pythonpath')
+[4.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/hook/pythonpath.ps1'
+[4.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/hook/pythonpath.dsv'
+[4.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/hook/pythonpath.sh'
+[4.812s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/bin'
+[4.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(RealSense_Camera_custom)
+[4.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/package.ps1'
+[4.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/package.dsv'
+[4.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/package.sh'
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/package.bash'
+[4.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/RealSense_Camera_custom/package.zsh'
+[4.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/share/colcon-core/packages/RealSense_Camera_custom)
+[4.818s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom' with build type 'ament_python'
+[4.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('SLAM_clearpath_custom', 'ament_prefix_path')
+[4.819s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/hook/ament_prefix_path.ps1'
+[4.822s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/hook/ament_prefix_path.dsv'
+[4.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/hook/ament_prefix_path.sh'
+[4.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.825s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.220s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom'
+[5.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.675s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom'
+[5.678s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.006s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom'
+[6.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.007s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SLAM_clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/install.log --single-version-externally-managed install_data
+[6.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SICK_scan_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/install.log --single-version-externally-managed install_data
+[6.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rviz_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/install.log --single-version-externally-managed install_data
+[6.842s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom' for CMake module files
+[6.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SLAM_clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/install.log --single-version-externally-managed install_data
+[6.852s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom' for CMake config files
+[6.853s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/bin'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/pkgconfig/SLAM_clearpath_custom.pc'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages'
+[6.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('SLAM_clearpath_custom', 'pythonpath')
+[6.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/hook/pythonpath.ps1'
+[6.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/hook/pythonpath.dsv'
+[6.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/hook/pythonpath.sh'
+[6.859s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/bin'
+[6.859s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(SLAM_clearpath_custom)
+[6.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/package.ps1'
+[6.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/package.dsv'
+[6.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/package.sh'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/package.bash'
+[6.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom/package.zsh'
+[6.866s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/colcon-core/packages/SLAM_clearpath_custom)
+[6.872s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom' for CMake module files
+[6.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SICK_scan_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/install.log --single-version-externally-managed install_data
+[6.877s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom' for CMake config files
+[6.886s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib'
+[6.887s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/bin'
+[6.887s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/pkgconfig/SICK_scan_custom.pc'
+[6.888s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages'
+[6.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('SICK_scan_custom', 'pythonpath')
+[6.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/hook/pythonpath.ps1'
+[6.890s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/hook/pythonpath.dsv'
+[6.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/hook/pythonpath.sh'
+[6.897s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/bin'
+[6.901s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(SICK_scan_custom)
+[6.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/package.ps1'
+[6.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/package.dsv'
+[6.905s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/package.sh'
+[6.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/package.bash'
+[6.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/SICK_scan_custom/package.zsh'
+[6.909s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/share/colcon-core/packages/SICK_scan_custom)
+[6.988s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom' for CMake module files
+[6.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/Rviz_Clearpath_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Rviz_Clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/Rviz_Clearpath_custom/install.log --single-version-externally-managed install_data
+[6.992s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom' for CMake config files
+[6.994s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib'
+[6.994s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/bin'
+[6.994s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/pkgconfig/Rviz_Clearpath_custom.pc'
+[6.995s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/lib/python3.10/site-packages'
+[6.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('Rviz_Clearpath_custom', 'pythonpath')
+[6.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/hook/pythonpath.ps1'
+[6.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/hook/pythonpath.dsv'
+[7.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/hook/pythonpath.sh'
+[7.002s] Level 1:colcon.colcon_core.environment:checking '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/bin'
+[7.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Rviz_Clearpath_custom)
+[7.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/package.ps1'
+[7.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/package.dsv'
+[7.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/package.sh'
+[7.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/package.bash'
+[7.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/Rviz_Clearpath_custom/package.zsh'
+[7.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/adam/robot_utilities_ws/RobotUtilities/install/Rviz_Clearpath_custom/share/colcon-core/packages/Rviz_Clearpath_custom)
+[7.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.009s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.010s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.069s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.069s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.070s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.137s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/robot_utilities_ws/RobotUtilities/install/local_setup.ps1'
+[7.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/robot_utilities_ws/RobotUtilities/install/_local_setup_util_ps1.py'
+[7.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/robot_utilities_ws/RobotUtilities/install/setup.ps1'
+[7.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/robot_utilities_ws/RobotUtilities/install/local_setup.sh'
+[7.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/adam/robot_utilities_ws/RobotUtilities/install/_local_setup_util_sh.py'
+[7.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/robot_utilities_ws/RobotUtilities/install/setup.sh'
+[7.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/robot_utilities_ws/RobotUtilities/install/local_setup.bash'
+[7.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/robot_utilities_ws/RobotUtilities/install/setup.bash'
+[7.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/adam/robot_utilities_ws/RobotUtilities/install/local_setup.zsh'
+[7.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/adam/robot_utilities_ws/RobotUtilities/install/setup.zsh'

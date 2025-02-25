@@ -1,0 +1,34 @@
+[1.628s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SLAM_clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/install.log --single-version-externally-managed install_data
+[1.868s] running egg_info
+[1.869s] creating ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info
+[1.876s] writing ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/PKG-INFO
+[1.893s] writing dependency_links to ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/dependency_links.txt
+[1.893s] writing entry points to ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/entry_points.txt
+[1.911s] writing requirements to ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/requires.txt
+[1.920s] writing top-level names to ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/top_level.txt
+[1.920s] writing manifest file '../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/SOURCES.txt'
+[1.921s] reading manifest file '../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/SOURCES.txt'
+[1.921s] adding license file 'LICENSE'
+[1.921s] writing manifest file '../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info/SOURCES.txt'
+[1.921s] running build
+[1.921s] running build_py
+[1.938s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build
+[1.938s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build/lib
+[1.938s] creating /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build/lib/SLAM_clearpath_custom
+[1.939s] copying SLAM_clearpath_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build/lib/SLAM_clearpath_custom
+[1.939s] running install
+[1.939s] running install_lib
+[1.939s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages/SLAM_clearpath_custom
+[1.939s] copying /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build/lib/SLAM_clearpath_custom/__init__.py -> /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages/SLAM_clearpath_custom
+[1.939s] byte-compiling /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages/SLAM_clearpath_custom/__init__.py to __init__.cpython-310.pyc
+[1.939s] running install_data
+[1.940s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/ament_index
+[1.940s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/ament_index/resource_index
+[1.940s] creating /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/ament_index/resource_index/packages
+[1.940s] copying resource/SLAM_clearpath_custom -> /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/ament_index/resource_index/packages
+[1.940s] copying package.xml -> /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/share/SLAM_clearpath_custom
+[1.940s] running install_egg_info
+[1.940s] Copying ../../build/SLAM_clearpath_custom/SLAM_clearpath_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages/SLAM_clearpath_custom-0.0.0-py3.10.egg-info
+[1.941s] running install_scripts
+[1.947s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/install.log'
+[2.006s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SLAM_clearpath_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SLAM_clearpath_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SLAM_clearpath_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SLAM_clearpath_custom/install.log --single-version-externally-managed install_data

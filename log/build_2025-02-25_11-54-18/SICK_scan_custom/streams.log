@@ -1,0 +1,21 @@
+[1.734s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SICK_scan_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/install.log --single-version-externally-managed install_data
+[1.984s] running egg_info
+[1.984s] writing ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/PKG-INFO
+[1.985s] writing dependency_links to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/dependency_links.txt
+[1.999s] writing entry points to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/entry_points.txt
+[1.999s] writing requirements to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/requires.txt
+[2.000s] writing top-level names to ../../build/SICK_scan_custom/SICK_scan_custom.egg-info/top_level.txt
+[2.009s] reading manifest file '../../build/SICK_scan_custom/SICK_scan_custom.egg-info/SOURCES.txt'
+[2.020s] adding license file 'LICENSE'
+[2.021s] writing manifest file '../../build/SICK_scan_custom/SICK_scan_custom.egg-info/SOURCES.txt'
+[2.021s] running build
+[2.021s] running build_py
+[2.021s] running install
+[2.021s] running install_lib
+[2.021s] running install_data
+[2.021s] running install_egg_info
+[2.021s] removing '/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages/SICK_scan_custom-0.0.0-py3.10.egg-info' (and everything under it)
+[2.037s] Copying ../../build/SICK_scan_custom/SICK_scan_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages/SICK_scan_custom-0.0.0-py3.10.egg-info
+[2.040s] running install_scripts
+[2.055s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/install.log'
+[2.138s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/SICK_scan_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/SICK_scan_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/SICK_scan_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/SICK_scan_custom/install.log --single-version-externally-managed install_data

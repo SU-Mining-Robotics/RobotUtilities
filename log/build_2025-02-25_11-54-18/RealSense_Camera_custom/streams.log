@@ -1,0 +1,21 @@
+[2.475s] Invoking command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RealSense_Camera_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/install.log --single-version-externally-managed install_data
+[2.543s] running egg_info
+[2.543s] writing ../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/PKG-INFO
+[2.544s] writing dependency_links to ../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/dependency_links.txt
+[2.549s] writing entry points to ../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/entry_points.txt
+[2.549s] writing requirements to ../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/requires.txt
+[2.549s] writing top-level names to ../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/top_level.txt
+[2.549s] reading manifest file '../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/SOURCES.txt'
+[2.549s] adding license file 'LICENSE'
+[2.550s] writing manifest file '../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info/SOURCES.txt'
+[2.557s] running build
+[2.557s] running build_py
+[2.558s] running install
+[2.559s] running install_lib
+[2.565s] running install_data
+[2.572s] running install_egg_info
+[2.572s] removing '/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages/RealSense_Camera_custom-0.0.0-py3.10.egg-info' (and everything under it)
+[2.573s] Copying ../../build/RealSense_Camera_custom/RealSense_Camera_custom.egg-info to /home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages/RealSense_Camera_custom-0.0.0-py3.10.egg-info
+[2.598s] running install_scripts
+[2.636s] writing list of installed files to '/home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/install.log'
+[2.823s] Invoked command in '/home/adam/robot_utilities_ws/RobotUtilities/src/RealSense_Camera_custom' returned '0': PYTHONPATH=/home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/adam/robot_utilities_ws/RobotUtilities/install/RealSense_Camera_custom/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/RealSense_Camera_custom build --build-base /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/build install --record /home/adam/robot_utilities_ws/RobotUtilities/build/RealSense_Camera_custom/install.log --single-version-externally-managed install_data
